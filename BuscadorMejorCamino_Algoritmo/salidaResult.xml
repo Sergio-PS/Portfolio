@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pantallas>
+    <pantalla jugador="Juan" nivel_actual="3" pantalla_solucion="3">
+        <primer_camino destino="o" origen="X">
+            <posible_solucion num="1">
+                <pixel col="0" fil="4">X</pixel>
+                <pixel col="1" fil="4">_</pixel>
+                <pixel col="1" fil="3">_</pixel>
+                <pixel col="2" fil="3">_</pixel>
+                <pixel col="2" fil="2">_</pixel>
+                <pixel col="2" fil="1">o</pixel>
+            </posible_solucion>
+            <posible_solucion num="2">
+                <pixel col="0" fil="4">X</pixel>
+                <pixel col="1" fil="4">_</pixel>
+                <pixel col="1" fil="3">_</pixel>
+                <pixel col="1" fil="2">_</pixel>
+                <pixel col="2" fil="2">_</pixel>
+                <pixel col="2" fil="1">o</pixel>
+            </posible_solucion>
+            <posible_solucion num="3">
+                <pixel col="0" fil="4">X</pixel>
+                <pixel col="1" fil="4">_</pixel>
+                <pixel col="1" fil="3">_</pixel>
+                <pixel col="1" fil="2">_</pixel>
+                <pixel col="1" fil="1">_</pixel>
+                <pixel col="2" fil="1">o</pixel>
+            </posible_solucion>
+        </primer_camino>
+        <segundoCamino destino="S" origen="o">
+            <posible_solucion num="1">
+                <pixel col="2" fil="1">o</pixel>
+                <pixel col="2" fil="2">_</pixel>
+                <pixel col="2" fil="3">_</pixel>
+                <pixel col="3" fil="3">_</pixel>
+                <pixel col="3" fil="4">_</pixel>
+                <pixel col="4" fil="4">_</pixel>
+                <pixel col="5" fil="4">_</pixel>
+                <pixel col="5" fil="3">_</pixel>
+                <pixel col="6" fil="3">_</pixel>
+                <pixel col="7" fil="3">_</pixel>
+                <pixel col="7" fil="4">_</pixel>
+                <pixel col="8" fil="4">_</pixel>
+                <pixel col="9" fil="4">_</pixel>
+                <pixel col="9" fil="3">S</pixel>
+            </posible_solucion>
+        </segundoCamino>
+        <puntuacion_solucion>19</puntuacion_solucion>
+    </pantalla>
+    <pantalla jugador="Maria" nivel_actual="1" pantalla_solucion="2">
+        <primer_camino destino="o" origen="X">
+            <posible_solucion num="1">
+                <pixel col="9" fil="4">X</pixel>
+                <pixel col="8" fil="4">_</pixel>
+                <pixel col="8" fil="3">_</pixel>
+                <pixel col="7" fil="3">_</pixel>
+                <pixel col="6" fil="3">_</pixel>
+                <pixel col="5" fil="3">_</pixel>
+                <pixel col="5" fil="2">_</pixel>
+                <pixel col="4" fil="2">_</pixel>
+                <pixel col="3" fil="2">_</pixel>
+                <pixel col="3" fil="1">_</pixel>
+                <pixel col="2" fil="1">o</pixel>
+            </posible_solucion>
+        </primer_camino>
+        <segundoCamino destino="S" origen="o">
+            <posible_solucion num="1">
+                <pixel col="2" fil="1">o</pixel>
+                <pixel col="1" fil="1">_</pixel>
+                <pixel col="0" fil="1">S</pixel>
+            </posible_solucion>
+        </segundoCamino>
+        <puntuacion_solucion>13</puntuacion_solucion>
+    </pantalla>
+</pantallas>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<partidas>
+	<partida jugador="Juan">
+		<puntuacion>25</puntuacion>
+		<pantalla estado="pendiente">#3</pantalla>
+	</partida>
+	<partida jugador="Maria">
+		<puntuacion>10</puntuacion>
+		<pantalla estado="completa">#1</pantalla>
+	</partida>
+</partidas>
