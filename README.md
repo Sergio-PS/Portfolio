@@ -7,6 +7,6 @@ CuadradoMagico      --> Algoritmo recursivo que construye cuadrados mágicos.
 <br>
 (MagicSquare)       --> Recursive algorithm that builds magic squares.
 
-TicTacToe_Kotlin_MagicSquare        --> src files of Android Tic Tac Toe App developed in Kotlin that uses magic square logic to determine winner.
+TicTacToe_Kotlin_MagicSquare        --> src files of Android App: Tic Tac Toe developed in Kotlin that uses magic square logic to determine winner.
 <br>
-(3_En_Raya_Kotlin_CuadradoMagico)   --> ficheros src de Android 3 En Raya desarrollado en Kotlin que utiliza lógica de cuadrado mágico para determinar ganador.
+(3_En_Raya_Kotlin_CuadradoMagico)   --> ficheros src de aplicación Android: 3 En Raya desarrollado en Kotlin que utiliza lógica de cuadrado mágico para determinar ganador.
