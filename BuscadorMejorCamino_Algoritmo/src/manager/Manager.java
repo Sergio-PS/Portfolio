@@ -38,10 +38,14 @@ public class Manager{
         }
     }
     /*
-    Para este programa automatizado, se van conservando los caminos generados en vez de eliminar los que no son validos,
-    por si acaso se necesitan para otro programa.
+    Importante:
+    Este programa se ha creado con el principal objetivo de desarrollar un algoritmo recursivo y automatizado
+    para buscar caminos. Para este proyecto, se ha obviado los principios SOLID y patrones de diseño que podrían
+    hacer el proyecto más funcional, esta fase se desarrollara dentro de poco.
+    El objetivo es concentrarse en el desarrollo matemático y automatizado del algoritmo.
 
-    Se podria haber creado una clase soluciones con clases soluciones, etc...
+    Para este programa automatizado, se van conservando los caminos generados en vez de eliminar los que no son validos,
+    por si acaso se necesitan para otra funcionalidad.
 
     Disculpa entre la mezcla de ingles + español.
      */
