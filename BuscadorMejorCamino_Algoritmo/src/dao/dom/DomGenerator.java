@@ -39,7 +39,7 @@ public class DomGenerator {
             DocumentBuilder builder = factory.newDocumentBuilder();
             this.document = builder.newDocument();
         } catch (ParserConfigurationException e) {
-            System.out.println("ERROR generating doucment");
+            System.out.println("ERROR generating document");
         }
     }
 

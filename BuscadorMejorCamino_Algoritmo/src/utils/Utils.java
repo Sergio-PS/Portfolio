@@ -21,7 +21,7 @@ public class Utils {
         ArrayList<Pantalla> pantallas = new ArrayList<>(); //valor retorno
         ArrayList<String[]> bufferPantalla = new ArrayList<>(); //buffer que acaba almacenando una matriz
 
-        Leer lector = new Leer("pantallas.txt");
+        Leer lector = new Leer(rutaFicheroPantallas);
         String line;
         while((line = lector.leerLinea()) != null){
             if(!(line.charAt(0) == '#')) bufferPantalla.add(line.split(" ")); //caso que no sea #. Vas almacenando en buffer las lineas
