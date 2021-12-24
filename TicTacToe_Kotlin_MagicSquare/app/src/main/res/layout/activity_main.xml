@@ -46,128 +46,105 @@
             android:background="@drawable/board">
 
             <LinearLayout
+                android:id="@+id/column1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:orientation="horizontal"
+                android:orientation="vertical"
                 android:layout_margin="5dp">
 
-                <TableLayout
+
+                <ImageView
+                    android:id="@+id/Button8"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="gameLogic"
+                    android:tag="8"></ImageView>
 
-                    <Button
-                        android:id="@+id/Button0"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:onClick="gameLogic"
-                        android:tag="8"
-                        android:visibility="invisible"></Button>
-
-                    <Button
+                    <ImageView
                         android:id="@+id/Button3"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:onClick="gameLogic"
-                        android:tag="3"
-                        android:visibility="invisible"></Button>
+                        android:tag="3"></ImageView>
 
-                    <Button
-                        android:id="@+id/Button6"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:onClick="gameLogic"
-                        android:tag="4"
-                        android:visibility="invisible"></Button>
-
-                </TableLayout>
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="horizontal"
-                android:layout_margin="5dp">
-
-                <TableLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <Button
-                        android:id="@+id/Button1"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:onClick="gameLogic"
-                        android:tag="1"
-                        android:visibility="invisible"></Button>
-
-                    <Button
+                    <ImageView
                         android:id="@+id/Button4"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:onClick="gameLogic"
-                        android:tag="5"
-                        android:visibility="invisible"></Button>
-
-                    <Button
-                        android:id="@+id/Button7"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:onClick="gameLogic"
-                        android:tag="9"
-                        android:visibility="invisible"></Button>
-
-                </TableLayout>
+                        android:tag="4"></ImageView>
 
             </LinearLayout>
-
             <LinearLayout
+                android:id="@+id/column2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:orientation="horizontal"
+                android:orientation="vertical"
                 android:layout_margin="5dp">
-
-                <TableLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <Button
-                        android:id="@+id/Button2"
+                    <ImageView
+                        android:id="@+id/Button1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:onClick="gameLogic"
-                        android:tag="6"
-                        android:visibility="invisible"></Button>
+                        android:tag="1"></ImageView>
 
-                    <Button
+                    <ImageView
                         android:id="@+id/Button5"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:onClick="gameLogic"
-                        android:tag="7"
-                        android:visibility="invisible"></Button>
+                        android:tag="5"></ImageView>
 
-                    <Button
-                        android:id="@+id/Button8"
+                    <ImageView
+                        android:id="@+id/Button9"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:onClick="gameLogic"
-                        android:tag="2"
-                        android:visibility="invisible"></Button>
+                        android:tag="9"
+                        ></ImageView>
+            </LinearLayout>
 
-                </TableLayout>
+            <LinearLayout
+                android:id="@+id/column3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
 
+                    <ImageView
+                        android:id="@+id/Button6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:onClick="gameLogic"
+                        android:tag="6"
+                        ></ImageView>
+
+                    <ImageView
+                        android:id="@+id/Button7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:onClick="gameLogic"
+                        android:tag="7"
+                        ></ImageView>
+
+                    <ImageView
+                        android:id="@+id/Button2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:onClick="gameLogic"
+                        android:tag="2"></ImageView>
             </LinearLayout>
 
 
@@ -179,11 +156,57 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/result"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="YELLOW WINS"
+                        android:textSize="40dp"
+                        android:visibility="invisible"
+                        android:layout_gravity="center">
+                    </TextView>
+
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/restartButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="RESTART"
+                        android:visibility="invisible"
+                        android:layout_gravity="center"
+                        android:onClick="restartLogic">
+                    </Button>
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+
         </LinearLayout>
 
 
     </LinearLayout>
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

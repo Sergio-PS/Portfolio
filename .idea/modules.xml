@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BuscadorMejorCamino_Algoritmo/BuscadorMejorCamino_Algoritmo.iml" filepath="$PROJECT_DIR$/BuscadorMejorCamino_Algoritmo/BuscadorMejorCamino_Algoritmo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CuadradoMagico/CuadradoMagico.iml" filepath="$PROJECT_DIR$/CuadradoMagico/CuadradoMagico.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Portfolio.iml" filepath="$PROJECT_DIR$/.idea/Portfolio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TicTacToe_Kotlin_MagicSquare/TicTacToe_Kotlin_MagicSquare.iml" filepath="$PROJECT_DIR$/TicTacToe_Kotlin_MagicSquare/TicTacToe_Kotlin_MagicSquare.iml" />
+    </modules>
+  </component>
+</project>
